@@ -1,0 +1,3 @@
+import {z} from 'zod';
+export const customerSchema=z.object({name:z.string().trim().min(2,'Enter your full name.').max(100),email:z.email('Enter a valid email address.'),phone:z.string().trim().regex(/^\+?[\d\s()-]{8,20}$/,'Enter a valid phone number.'),business:z.string().trim().min(2,'Enter your business name.').max(150),category:z.string().trim().min(2,'Tell us your business category.').max(100),requirements:z.string().trim().max(3000,'Please keep this under 3,000 characters.')});
+export const contactSchema=customerSchema.extend({requirements:z.string().trim().min(20,'Please describe your project in at least 20 characters.').max(3000),packageId:z.string().min(1,'Select a package or choose “Help me decide”.'),budget:z.string().min(1,'Choose a budget range.')});

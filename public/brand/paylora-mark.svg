@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs><linearGradient id="paylora" x1="12" y1="54" x2="55" y2="8" gradientUnits="userSpaceOnUse"><stop stop-color="#638DFF"/><stop offset=".55" stop-color="#A18AFF"/><stop offset="1" stop-color="#DBC8FF"/></linearGradient></defs>
+  <path d="M13 54V13a3 3 0 0 1 3-3h19c12 0 20 7.2 20 18S47 46 35 46h-7V35h7c5.4 0 8-2.6 8-7s-2.6-7-8-7H25v24L13 54Z" fill="url(#paylora)"/>
+  <path d="m28 50 11-8v9L28 59v-9Z" fill="#758BFF"/>
+</svg>

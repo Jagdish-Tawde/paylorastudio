@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Build generates the production robots.txt when VITE_SITE_URL is configured.
